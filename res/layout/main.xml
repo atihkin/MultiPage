@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/rootLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+		   <Button
+            android:id="@+id/btnFeed1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnFeed3"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="36dp"
+            android:onClick="onClickFeed1"
+            android:text="@string/feed1" />
+    
+        <Button
+            android:id="@+id/btnFeed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnFeed1"
+            android:layout_below="@+id/btnFeed1"
+            android:layout_marginTop="15dp"
+            android:onClick="onClickFeed2"
+            android:text="@string/feed2" />
+
+        <Button
+            android:id="@+id/btnFeed3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnFeed2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:onClick="onClickFeed3"
+            android:text="@string/feed3" />
+
+        <Button
+            android:id="@+id/btnNewFeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnFeed3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:onClick="onClickNewFeed"
+            android:text="@string/newfeed" />
+        
+        
+        <Button
+            android:id="@+id/btnNewFeed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnNewFeed3"
+            android:layout_alignLeft="@+id/btnNewFeed3"
+            android:layout_marginBottom="15dp"
+            android:onClick="onClickNewFeed2"
+            android:text="@string/newfeed2" />
+
+        <Button
+            android:id="@+id/btnNewFeed3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="47dp"
+            android:onClick="onClickNewFeed3"
+            android:text="@string/newfeed3" />
+
+     
+
+
+</RelativeLayout>

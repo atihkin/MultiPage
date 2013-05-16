@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.multipage"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.multipage.JustRoidsActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    
+    
+    <activity
+        android:name=".Feed1Activity"
+        android:label="Feed 1"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    />
+    <activity
+        android:name=".Feed2Activity"
+        android:label="Feed 2"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    />
+    <activity
+        android:name=".Feed3Activity"
+        android:label="Feed 3"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    />
+    
+    <activity
+        android:name=".NewFeedActivity"
+        android:label="New Feed Activity"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    />
+    
+     <activity
+        android:name=".NewFeedActivity2"
+        android:label="New Feed Activity 2"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    />
+     
+      <activity
+        android:name=".NewFeedActivity3"
+        android:label="New Feed Activity 3"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    />
+
+    </application>
+</manifest>
